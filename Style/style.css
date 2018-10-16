@@ -1,0 +1,67 @@
+
+/* les navigateurs appliquent des propriétés css par défaut comme des sauts de ligne */
+/* cela permet de les enlever pour repartir sur des bases saines */
+/* mais la meilleur solution consiste à faire un lien dans le fichier html avec le fichier Normalize.css */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+
+/* pour afficher l'image de fond du block 8 "Nos centres de formation" */
+.page{
+    width: 100%;
+    height: 100%;
+    display:flex; 
+    flex-wrap: wrap; 
+/*    justify-content: center; */
+/*   justify-content: space-around; */
+ }
+
+.card{
+    width: 30%;
+    height: 30%; 
+    box-shadow: 2px 2px 5px grey;
+    margin : 20px 20px 20px 20px;
+}
+
+figure img{
+    width: 100%;
+    height: 55%;
+}
+
+figcaption {
+    display: flex;
+    align-items: baseline;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+figcaption h2{
+    width: 92%;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.card a{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a{
+    display: strong;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;  
+    color: purple;
+}
+
+li{
+    list-style-type: none;
+    color: purple;
+}
+
+
